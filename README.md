@@ -1,6 +1,6 @@
 # Vulkan on Raspberry Pi
 A guide to setting up vulkan on the raspberry pi.
-![vulkan logo](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/Vulkan%20Logo.jpg?raw=true)
+![vulkan logo](https://raw.githubusercontent.com/TwilightHacker/vulkan_on_rpi/main/Vulkan%20Logo.jpg)
 
 ### Table of Contents
 - [TLDR](#tldr)
@@ -20,18 +20,18 @@ cd ~/piKiss
 git pull
 ```
 Once installed, run PiKISS and this screen appears. On this screen, select confiure.
-![PiKISS-Configure](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-configure.jpg?raw=true)<br /><br />
+![PiKISS-Configure](https://github.com/TwilightHacker/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-configure.jpg?raw=true)<br /><br />
 Then select vulkan to start compiling the vulkan drivers for your rpi4.
-![PiKISS-Vulkan](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-vulkan.jpg?raw=true)<br /><br />
+![PiKISS-Vulkan](https://github.com/TwilightHacker/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-vulkan.jpg?raw=true)<br /><br />
 Once the drivers are finished compiling, you should see this screen which confirms everything went well, and you are done.<br />
-![PiKISS-Vulkan Ready](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-vulkan-ready.jpg?raw=true)<br /><br />
+![PiKISS-Vulkan Ready](https://github.com/TwilightHacker/vulkan_on_rpi/blob/main/PiKISS%20Screenshots/PiKISS-vulkan-ready.jpg?raw=true)<br /><br />
 
 ### Compiling From Scratch
 First, you should check your architecture before manually compiling Vulkan.
 ```
 uname -a 
 ```
-![Version Check](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/Manual%20Compile%20Screenshots/Version32_64.jpg?raw=true)<br /><br />
+![Version Check](https://github.com/TwilightHacker/vulkan_on_rpi/blob/main/Manual%20Compile%20Screenshots/Version32_64.jpg?raw=true)<br /><br />
 
 Updating is important to do first before continuing.
 ```
@@ -81,7 +81,7 @@ Finally to make sure everything is working:
 glxinfo -B
 ```
 You should get this screen showing that everything works.
-![glxinfo -B Command](https://github.com/link-does-mods/vulkan_on_rpi/blob/main/Manual%20Compile%20Screenshots/glxinfo.jpg?raw=true)<br/><br/>
+![glxinfo -B Command](https://github.com/TwilightHacker/vulkan_on_rpi/blob/main/Manual%20Compile%20Screenshots/glxinfo.jpg?raw=true)<br/><br/>
 ### Demos
 This wouldn't be any useful without running some demos to test out the new drivers.
 ```
