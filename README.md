@@ -4,11 +4,6 @@
 
 A battle-worn guide for warriors and tinkerers alike—this scroll shall lead you through the sacred rites of unlocking Vulkan’s power on the humble Raspberry Pi. Whether you seek speed, strength, or just to conquer new knowledge, the path lies ahead. Ready your tools.
 
-## 🔥 Table of the Journey
-- [TLDR](#tldr)
-- [Compiling From Scratch](#compiling-from-scratch)
-- [Demos](#demos)
-
 ## ⚔️ TLDR — For Those Who Ride Fast
 Call upon PiKISS, the swift companion, to guide you past the shadows of manual toil.
 
